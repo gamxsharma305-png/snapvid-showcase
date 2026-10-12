@@ -1,0 +1,33 @@
+{
+  "name": "snapvid-showcase",
+  "version": "1.1.0",
+  "description": "Professional Instagram & TikTok public video downloader with ThreeUI showcase landing",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "instagram",
+    "tiktok",
+    "downloader",
+    "video",
+    "react",
+    "vite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@designcodeio/threeui": "^1.2.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
+  }
+}
